@@ -23,7 +23,7 @@ function readTextFile1(file)
     rawFile.send(null);
 }
 
-readTextFile1("https://alonzocarlos95.github.io/inventory.txt"); //calling the function
+readTextFile1("../inventory.txt"); //calling the function
 // console.log(status);
 
 //time for looping >:D
