@@ -10,6 +10,7 @@ function readTextFile1(file)
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function ()
     {
+        debugger;
         if(rawFile.readyState === 4)
         {
             if(rawFile.status === 200 || rawFile.status == 0)
